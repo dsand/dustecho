@@ -5,7 +5,7 @@ from scipy.interpolate import interp1d
 from math import pi, log10, sqrt, log, exp, sqrt, atan, cos, sin, acos, asin
 
 # adjustable parameters
-nH0 = 1                # [cm^-3] H number density
+nH0 = 0.1                # [cm^-3] H number density
 tmax = 300.     # [s], duration of the source
 LUV = 3e47      # [erg/s]  # source luminosity
 

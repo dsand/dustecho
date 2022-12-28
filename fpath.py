@@ -1,2 +1,2 @@
-codedir = '/Users/wenbinlu/Documents/GitHub/dustecho/'
-savedir = codedir
+codedir = '/Users/dsand/dustecho/'
+savedir = codedir+'example/'

@@ -13,7 +13,7 @@ The resulting txt files from "run_Ldnu_obs.py" are structured as follows. There 
 
 tobs = numpy.geomspace(tobsmin, tobsmax, num=Ntobs, endpoint=False)
 
-The second line shows the meaning of the later two rows of numbers: 'Ldnu' is the specific luminosity [in erg/s/Hz] at the wavelength specificed in the filename; 'xcentr' is the projected distance [in pc] between the flux centroid and the center of explosion on the sky. To obtain the projected angualr position of the flux centroid, one needs to divide xcentr by the angular diameter distance to the source. The third row shows the value of 'Ldnu' and the last row shows 'xcentr', at each time tobs. When Ldnu = 0 (dust echo hasn't arrived yet), we have xcentr = numpy.nan (does not exist).
+The second line shows the meaning of the later two rows of numbers: 'Ldnu' is the specific luminosity [in erg/s/Hz] at the wavelength specificed in the filename; 'xcentr' is the projected distance [in pc] between the flux centroid and the center of explosion on the sky. To obtain the projected angular position of the flux centroid, one needs to divide xcentr by the angular diameter distance to the source. The third row shows the value of 'Ldnu' and the last row shows 'xcentr', at each time tobs. When Ldnu = 0 (dust echo hasn't arrived yet), we have xcentr = numpy.nan (does not exist).
 
 Note that the dust echo from the counter jet (which propagates away from the observer) is not included, and we do not expect the counter-jet echo to contribute significantly to the total flux in the first decade after the explosion. It takes very little additional effort to compute the counter-jet echo, if needed.
 
